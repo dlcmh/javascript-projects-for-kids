@@ -9,7 +9,10 @@
 
     </canvas>
     <script>
-      
+      var canvas = document.getElementById("canvasTest")
+      var canvasElement = canvas.getContext("2d")
+      canvasElement.fillStyle = "black"
+      canvasElement.fillRect(10, 10, 50, 50) // x y width height
     </script>
   </body>
 </html>
